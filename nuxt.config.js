@@ -33,7 +33,8 @@ export default {
     // axios is required by @nuxtjs/auth
     '@nuxtjs/axios',
     // https://auth.nuxtjs.org
-    '@nuxtjs/auth'
+    '@nuxtjs/auth',
+    '@nuxtjs/pwa'
   ],
   auth: {
     redirect: {

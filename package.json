@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/pwa": "^3.3.5",
     "dotenv": "^8.2.0",
     "normalize.css": "^8.0.1",
     "nuxt-start": "^2.14.3"
