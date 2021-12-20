@@ -12,6 +12,9 @@
       <p v-else>
         You're not authenticated yet. Maybe you want to <a @click="$auth.login()" class="link">sign in</a> and see what happens?
       </p>
+
+      <a v-if="$auth.loggedIn" @click="$auth.logout()">Sign Off</a>
+    <a v-else @click="$auth.loginWith('auth0')">Sign In</a>
     </div>
   </div>
 </template>

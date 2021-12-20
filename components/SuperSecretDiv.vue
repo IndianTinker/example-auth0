@@ -1,5 +1,9 @@
 <template>
-  <div>This is a super secret div.</div>
+  <div>
+    <p>
+    This is a super secret div.
+    </p>
+    </div>
 </template>
 
 <style scoped>
