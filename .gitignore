@@ -10,5 +10,5 @@ npm-debug.log
 # Nuxt generate
 dist
 
-# Auth0 config
-.env
+# # Auth0 config
+# .env
