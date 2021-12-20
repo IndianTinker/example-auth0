@@ -4,6 +4,10 @@ export default {
   /*
   ** Headers of the page
   */
+  target: 'static',
+  generate: {
+    fallback: true
+  },
   head: {
     title: 'Nuxt.js + Auth0',
     meta: [
